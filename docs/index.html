@@ -28,17 +28,18 @@
 </head>
 <body>
     <!-- Header de la pagina -->
-     <header>
-        <h1>Hola xd Bienvenido a mi pagina web</h1>
-    </header>
+    <div class="content" id="content">
+        <h2 id="contentTitle">Bienvenido</h2>
+        <p id="contentText">Selecciona una sección para ver su contenido.</p>
+    </div>
     <!-- Contenido de la pagina -->
-     <main>
-        <section>
-            <h2>Seccion 1</h2>
-            <p>Este es el contenido de la seccion 1</p>
-            <button id="ingreso">Ingreso</button>
-        </section>
-     </main>
+     <div class="sections">
+        <img src="imagen.jpg" alt="Imagen descriptiva">
+        <section onclick="showContent('section1')">Sección 1</section>
+        <section onclick="showContent('section2')">Sección 2</section>
+        <section onclick="showContent('section3')">Sección 3</section>
+        <section onclick="showContent('section4')">Sección 4</section>
+    </div>
     <!-- Footer de la pagina -->
     <footer>
         <p>&copy; 2023 Kono's Web. Todos los derechos reservados.</p>
