@@ -1,38 +1,10 @@
 /* Basic CSS styles for a web page */
-
-header {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    padding: 10px 0;
-    text-align: center;
-}
-
 body {
-    font-family: 'Tangerine', serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #006508;
-    box-sizing: border-box;
-    color: #ffffff;
-}
-
-.content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
-.content section {
-    flex: 1 1 200px;
-    margin: 10px;
-    background-color: #e2e2e2;
-    padding: 15px;
-}
-
-header, footer, section {
-    padding: 20px;
-    text-align: center;
-}
-
 .sections {
     width: 20%;
     background-color: #f4f4f4;
@@ -51,41 +23,20 @@ header, footer, section {
     background-color: #e2e2e2;
     border-radius: 5px;
 }
-
-nav {
-    margin: 20px 0;
-}
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
+.content {
+    flex: 1;
     padding: 20px;
+    box-sizing: border-box;
 }
-
+.content h2 {
+    margin-top: 0;
+}
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
