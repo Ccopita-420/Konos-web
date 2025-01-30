@@ -4,7 +4,7 @@ function showContent(sectionId) {
     const contentText = document.getElementById('contentText');
 
     if (sectionId === 'section1') {
-        contentTitle.textContent = 'Sección 1';
+        contentTitle.textContent = 'Sobre mí';
         contentText.textContent = 'Contenido de la sección 1.';
     } else if (sectionId === 'section2') {
         contentTitle.textContent = 'Sección 2';
